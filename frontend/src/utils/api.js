@@ -1,6 +1,6 @@
 export const processImage = async (formData) => {
     try {
-        const response = await fetch(`http://localhost:8000/api/process-image`, {
+        const response = await fetch(`https://captionpro.onrender.com/api/process-image`, {
             method: 'POST',
             body: formData,
             mode: 'cors', // Ensure CORS settings match

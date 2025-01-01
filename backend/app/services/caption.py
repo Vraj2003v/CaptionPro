@@ -27,7 +27,7 @@ class Caption:
                 {
                     "role": "system",
                     "content": [
-                        {"type": "text", "text": "Caption the image in 15-25 words."},
+                        {"type": "text", "text": "Caption the given image in 15-25 words only."},
                         {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_base64}"}}
                     ],
                 }

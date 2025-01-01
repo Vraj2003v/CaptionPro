@@ -234,7 +234,7 @@ const UploadForm = ({ onUpload }) => {
                             <MainText>
                                 {isDragging ? 'Drop your image here' : 'Choose a file or drag it here'}
                             </MainText>
-                            <SubText>Supports: Any format of image (max 50MB)</SubText>
+                            <SubText>Supports: Any format of image (max 100MB)</SubText>
                         </UploadText>
                     </>
                 ) : (

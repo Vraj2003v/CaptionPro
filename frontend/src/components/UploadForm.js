@@ -201,7 +201,7 @@ const UploadForm = ({ onUpload }) => {
     // Cleanup on component unmount
     useEffect(() => {
         return () => cleanupPreview();
-    }, []);
+    }, [cleanupPreview]);
 
     // Cleanup previous preview when new file is selected
     useEffect(() => {

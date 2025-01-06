@@ -1,4 +1,4 @@
-# AltContextPro
+# CaptionPro
 
 An AI-powered image analysis tool that generates detailed alt text, contextual information, and sentiment analysis for images using multiple AI models.
 
